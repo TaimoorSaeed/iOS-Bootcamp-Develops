@@ -1,24 +1,33 @@
-//
-//  ViewController.swift
-//  iOS Bootcamp Quiz App
-//
-//  Created by Nano Degree on 09/02/2017.
-//  Copyright © 2017 Swift Pakistan. All rights reserved.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Score: UILabel!
+    
+    var count = 0
+    var count2 = 0
+    var total = 0
+    
+    @IBAction func truePressed(_ sender: Any) {
+        count = 1
+    }
+    
+    @IBAction func truePressed2(_ sender: Any) {
+        count2 = 1
+    }
+    
+    @IBAction func SubmitPressed(_ sender: Any) {
+        total = count + count2
+        Score.text = (String(total))
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Score.text = " "
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    	
 
 
 }

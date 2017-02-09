@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		8BF9AC5D1E4CB06900F0CCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9AC5C1E4CB06900F0CCF3 /* AppDelegate.swift */; };
 		8BF9AC5F1E4CB06900F0CCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9AC5E1E4CB06900F0CCF3 /* ViewController.swift */; };
-		8BF9AC621E4CB06900F0CCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9AC601E4CB06900F0CCF3 /* Main.storyboard */; };
 		8BF9AC641E4CB06900F0CCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9AC631E4CB06900F0CCF3 /* Assets.xcassets */; };
 		8BF9AC671E4CB06900F0CCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9AC651E4CB06900F0CCF3 /* LaunchScreen.storyboard */; };
+		8BF9AC701E4CCA4C00F0CCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9AC6E1E4CCA4C00F0CCF3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BF9AC591E4CB06900F0CCF3 /* iOS Bootcamp Quiz App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Bootcamp Quiz App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF9AC5C1E4CB06900F0CCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BF9AC5E1E4CB06900F0CCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BF9AC611E4CB06900F0CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF9AC631E4CB06900F0CCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF9AC661E4CB06900F0CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF9AC681E4CB06900F0CCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF9AC6F1E4CCA4C00F0CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				8BF9AC5C1E4CB06900F0CCF3 /* AppDelegate.swift */,
 				8BF9AC5E1E4CB06900F0CCF3 /* ViewController.swift */,
-				8BF9AC601E4CB06900F0CCF3 /* Main.storyboard */,
+				8BF9AC6E1E4CCA4C00F0CCF3 /* Main.storyboard */,
 				8BF9AC631E4CB06900F0CCF3 /* Assets.xcassets */,
 				8BF9AC651E4CB06900F0CCF3 /* LaunchScreen.storyboard */,
 				8BF9AC681E4CB06900F0CCF3 /* Info.plist */,
@@ -124,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF9AC701E4CCA4C00F0CCF3 /* Main.storyboard in Resources */,
 				8BF9AC671E4CB06900F0CCF3 /* LaunchScreen.storyboard in Resources */,
 				8BF9AC641E4CB06900F0CCF3 /* Assets.xcassets in Resources */,
-				8BF9AC621E4CB06900F0CCF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,20 +145,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BF9AC601E4CB06900F0CCF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BF9AC611E4CB06900F0CCF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BF9AC651E4CB06900F0CCF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8BF9AC661E4CB06900F0CCF3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BF9AC6E1E4CCA4C00F0CCF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF9AC6F1E4CCA4C00F0CCF3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
